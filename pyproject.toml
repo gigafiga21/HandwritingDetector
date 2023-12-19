@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "laboratory-work-5"
+version = "0.1.0"
+description = ""
+authors = ["gigafiga21 <gigafiga21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+flask = "^3.0.0"
+pillow = "^10.1.0"
+numpy = "^1.26.2"
+keras = "2.10"
+tensorflow = "2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
